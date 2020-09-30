@@ -1,0 +1,9 @@
+# logged commands
+open C:\Users\Pro18\Projects\масв\[data]\insurance_north.csv
+freq smoker --plot=display
+freq sex --plot=display
+freq region --plot=display
+freq charges --min=404.672 --binwidth=2551 --plot=display
+freq age --min=17,042 --binwidth=5.775 --plot=display
+freq bmi --min=15,291 --binwidth=1,745 --plot=display
+summary age bmi charges
