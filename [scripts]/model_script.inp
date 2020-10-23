@@ -1,0 +1,8 @@
+open \
+  C:\Users\Pro18\Projects\methods_of_analysis\[data]\insurance_north.gdt
+smpl 518 --random
+dummify smoker
+bmi_ind = 1*(bmi>=30) + 0*(bmi<30)
+bmi_bmi_ind = bmi*bmi_ind
+ols charges 0 age bmi children Dsmoker_2
+ols charges 0 age bmi children Dsmoker_2 bmi_bmi_ind
