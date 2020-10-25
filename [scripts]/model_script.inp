@@ -1,4 +1,4 @@
-open insurance_north.gdt
+open [data]\insurance_north.gdt
 include KruskalWallis.gfn
 # Предварительный анализ данных
 freq smoker --plot=display
