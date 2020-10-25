@@ -1,8 +1,33 @@
 open \
   C:\Users\Pro18\Projects\methods_of_analysis\[data]\insurance_north.gdt
+freq smoker --plot=display
+freq sex --plot=display
+freq children --plot=display
+freq charges --min=404.672 --binwidth=2551 --plot=display
+freq age --min=17.042 --binwidth=5.775 --plot=display
+freq bmi --min=15.291 --binwidth=1.745 --plot=display
+summary age bmi children charges
+boxplot charges sex --factorized
+boxplot charges smoker --factorized
+gnuplot  charges age
+gnuplot  charges bmi
+gnuplot  charges children
+xtab  sex smoker
+corr age bmi children
+gnuplot  bmi age
+include KruskalWallis.gfn
+KruskalWallis(age, sex, 1)
+KruskalWallis(bmi, sex, 1)
+KruskalWallis(children, sex, 1)
+KruskalWallis(bmi, smoker, 1)
+KruskalWallis(age, smoker, 1)
+KruskalWallis(children, smoker, 1)
 smpl 518 --random
 dummify smoker
+dummify sex
 bmi_ind = 1*(bmi>=30) + 0*(bmi<30)
 bmi_bmi_ind = bmi*bmi_ind
+sex_age = Dsex_1 * age
 ols charges 0 age bmi children Dsmoker_2
 ols charges 0 age bmi children Dsmoker_2 bmi_bmi_ind
+ols charges 0 age bmi children Dsmoker_2 bmi_bmi_ind sex_age
