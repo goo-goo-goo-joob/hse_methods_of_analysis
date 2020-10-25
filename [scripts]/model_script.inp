@@ -1,5 +1,6 @@
-open \
-  C:\Users\Pro18\Projects\methods_of_analysis\[data]\insurance_north.gdt
+open insurance_north.gdt
+include KruskalWallis.gfn
+# Предварительный анализ данных
 freq smoker --plot=display
 freq sex --plot=display
 freq children --plot=display
@@ -7,25 +8,33 @@ freq charges --min=404.672 --binwidth=2551 --plot=display
 freq age --min=17.042 --binwidth=5.775 --plot=display
 freq bmi --min=15.291 --binwidth=1.745 --plot=display
 summary age bmi children charges
+# Анализ статистической связи
+# Графический анализ пары «числовая зависимая переменная – качественная независимая переменная»
 boxplot charges sex --factorized
+KruskalWallis(charges, sex, 1)
 boxplot charges smoker --factorized
+KruskalWallis(charges, smoker, 1)
+# Графический анализ пары «числовая зависимая переменная – числовая независимая переменная»
 gnuplot  charges age
 gnuplot  charges bmi
 gnuplot  charges children
+# Анализ наличия корреляции между независимыми переменными
 xtab  sex smoker
 corr age bmi children
 gnuplot  bmi age
-include KruskalWallis.gfn
 KruskalWallis(age, sex, 1)
 KruskalWallis(bmi, sex, 1)
 KruskalWallis(children, sex, 1)
 KruskalWallis(bmi, smoker, 1)
 KruskalWallis(age, smoker, 1)
 KruskalWallis(children, smoker, 1)
+# Предварительная проверка гипотез
+# Построение моделей
 smpl 518 --random
 dummify smoker
 dummify sex
 bmi_ind = 1*(bmi>=30) + 0*(bmi<30)
+boxplot charges bmi_ind --factorized
 bmi_bmi_ind = bmi*bmi_ind
 sex_age = Dsex_1 * age
 ols charges 0 age bmi children Dsmoker_2
