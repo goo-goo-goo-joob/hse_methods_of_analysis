@@ -1,0 +1,14 @@
+open [data]\insurance_north.gdt
+include KruskalWallis.gfn
+smpl 518 --random
+Dchildren_2 = children == 2 
+Dchildren_many = children >= 3
+dummify smoker
+dummify sex
+bmi_ind = 1 * (bmi >= 30) + 0 * (bmi < 30)
+boxplot charges bmi_ind --factorized
+bmi_bmi_ind = bmi*bmi_ind
+sex_age = Dsex_1 * age
+ols charges 0 age bmi Dchildren_2 Dchildren_many Dsmoker_2
+ols charges 0 age bmi Dchildren_2 Dchildren_many Dsmoker_2 bmi_bmi_ind
+ols charges 0 age bmi Dchildren_2 Dchildren_many Dsmoker_2 bmi_bmi_ind sex_age
