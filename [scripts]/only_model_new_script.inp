@@ -9,6 +9,6 @@ bmi_ind = 1 * (bmi >= 30) + 0 * (bmi < 30)
 boxplot charges bmi_ind --factorized
 bmi_bmi_ind = bmi*bmi_ind
 sex_age = Dsex_1 * age
-ols charges 0 age bmi Dchildren_2 Dchildren_many Dsmoker_2
-ols charges 0 age bmi Dchildren_2 Dchildren_many Dsmoker_2 bmi_bmi_ind
-ols charges 0 age bmi Dchildren_2 Dchildren_many Dsmoker_2 bmi_bmi_ind sex_age
+ols charges 0 age bmi Dchildren_1 Dchildren_2 Dchildren_many Dsmoker_2
+ols charges 0 age bmi Dchildren_1 Dchildren_2 Dchildren_many Dsmoker_2 bmi_bmi_ind
+ols charges 0 age bmi Dchildren_1 Dchildren_2 Dchildren_many Dsmoker_2 bmi_bmi_ind sex_age
