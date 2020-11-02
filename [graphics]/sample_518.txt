@@ -1,0 +1,1562 @@
+﻿             age          sex          bmi     children       smoker
+
+  1           32         male       28,880            0           no
+  2           37         male       29,830            2           no
+  3           60       female       25,840            0           no
+  4           25         male       26,220            0           no
+  5           52       female       30,780            1           no
+  6           23         male       23,845            0           no
+  7           60       female       36,005            0           no
+  8           34       female       31,920            1          yes
+  9           63       female       23,085            0           no
+ 10           23         male       17,385            1           no
+ 11           63         male       28,310            0           no
+ 12           62       female       32,965            3           no
+ 13           24       female       26,600            0           no
+ 14           18       female       38,665            2           no
+ 15           28       female       34,770            0           no
+ 16           18       female       35,625            0           no
+ 17           40       female       28,690            3           no
+ 18           58         male       36,955            2          yes
+ 19           58       female       31,825            2           no
+ 20           34       female       37,335            2           no
+ 21           43         male       27,360            3           no
+ 22           64         male       24,700            1           no
+ 23           28       female       25,935            1           no
+ 24           20       female       22,420            0          yes
+ 25           40         male       26,315            1           no
+ 26           31         male       28,500            5           no
+ 27           57         male       34,010            0           no
+ 28           22       female       39,805            0           no
+ 29           45       female       38,285            0           no
+ 30           48       female       41,230            4           no
+ 31           45         male       22,895            2          yes
+ 32           57       female       31,160            0          yes
+ 33           55       female       26,980            0           no
+ 34           53       female       24,795            1           no
+ 35           59         male       29,830            3          yes
+ 36           35         male       34,770            2           no
+ 37           56         male       19,950            0          yes
+ 38           30         male       25,460            0           no
+ 39           18       female       30,115            0           no
+ 40           20         male       28,025            1          yes
+ 41           26         male       30,875            2           no
+ 42           54         male       33,630            1           no
+ 43           21       female       35,720            0           no
+ 44           52         male       32,205            3           no
+ 45           60         male       28,595            0           no
+ 46           37       female       23,370            2           no
+ 47           18         male       23,750            0           no
+ 48           20       female       28,975            0           no
+ 49           44         male       31,350            1          yes
+ 50           47       female       33,915            3           no
+ 51           26       female       28,785            0           no
+ 52           32       female       17,765            2          yes
+ 53           61       female       22,040            0           no
+ 54           19         male       25,555            0           no
+ 55           22         male       25,175            0           no
+ 56           26         male       32,490            1           no
+ 57           29         male       29,735            2           no
+ 58           30         male       28,690            3          yes
+ 59           46         male       30,495            3          yes
+ 60           53       female       37,430            1           no
+ 61           35         male       24,130            1           no
+ 62           32       female       37,145            3           no
+ 63           42       female       23,370            0          yes
+ 64           40       female       25,460            1           no
+ 65           44         male       39,520            0           no
+ 66           18         male       25,175            0          yes
+ 67           42       female       26,600            0          yes
+ 68           37         male       29,640            0           no
+ 69           47         male       28,215            4           no
+ 70           32       female       33,155            3           no
+ 71           19       female       31,825            1           no
+ 72           27         male       18,905            3           no
+ 73           18         male       15,960            0           no
+ 74           38         male       27,835            2           no
+ 75           58         male       28,595            0           no
+ 76           22         male       19,950            3           no
+ 77           44       female       26,410            0           no
+ 78           56       female       26,600            1           no
+ 79           19         male       30,590            0           no
+ 80           51       female       18,050            0           no
+ 81           19       female       32,110            0           no
+ 82           60       female       24,035            0           no
+ 83           28       female       28,880            1           no
+ 84           35         male       27,740            2          yes
+ 85           40         male       41,230            1           no
+ 86           40         male       30,875            4           no
+ 87           24         male       28,500            2           no
+ 88           53       female       33,250            0           no
+ 89           41       female       31,635            1           no
+ 90           47         male       25,460            2           no
+ 91           42       female       36,195            1           no
+ 92           39         male       24,510            2           no
+ 93           19         male       29,070            0          yes
+ 94           23       female       36,670            2          yes
+ 95           33       female       22,135            1           no
+ 96           63       female       27,740            0          yes
+ 97           54         male       30,020            0           no
+ 98           29         male       28,975            1           no
+ 99           18         male       17,290            2          yes
+100           50         male       31,825            0          yes
+101           55       female       25,365            3           no
+102           56         male       33,630            0          yes
+103           51         male       24,415            4           no
+104           52         male       24,320            3          yes
+105           49         male       25,840            1           no
+106           50         male       27,455            1           no
+107           25         male       27,550            0           no
+108           47       female       26,600            2           no
+109           19         male       20,615            2           no
+110           40       female       28,120            1          yes
+111           54         male       40,565            3          yes
+112           30         male       27,645            1           no
+113           55       female       32,395            1           no
+114           46       female       48,070            2           no
+115           59       female       36,765            1          yes
+116           29         male       29,640            1           no
+117           18         male       22,990            0           no
+118           48       female       28,880            1           no
+119           36         male       27,550            3           no
+120           29         male       33,345            2           no
+121           58         male       34,865            0           no
+122           52         male       33,250            0           no
+123           50         male       32,205            0           no
+124           54         male       32,775            0           no
+125           44       female       27,645            0           no
+126           34         male       25,270            1           no
+127           26       female       29,640            4           no
+128           57         male       40,945            0           no
+129           40         male       34,105            1           no
+130           45         male       36,480            2          yes
+131           52         male       27,360            0          yes
+132           61       female       31,160            0           no
+133           56       female       28,785            0           no
+134           43       female       35,720            2           no
+135           62         male       27,550            1           no
+136           62         male       30,020            0           no
+137           63         male       36,765            0           no
+138           46         male       33,345            1           no
+139           19         male       27,835            0           no
+140           47         male       29,830            3           no
+141           49       female       30,780            1           no
+142           42       female       24,985            2           no
+143           44         male       32,015            2           no
+144           61       female       21,090            0           no
+145           57       female       22,230            0           no
+146           42       female       33,155            1           no
+147           23       female       28,310            0          yes
+148           39       female       24,890            3          yes
+149           64       female       30,115            3           no
+150           27       female       17,955            2          yes
+151           55         male       30,685            0          yes
+152           44         male       22,135            2           no
+153           24       female       30,210            3           no
+154           48         male       35,625            4           no
+155           48         male       31,445            1           no
+156           49         male       31,350            1           no
+157           46       female       32,300            2           no
+158           46         male       19,855            0           no
+159           49         male       32,300            3           no
+160           19         male       17,480            0           no
+161           44       female       20,235            1          yes
+162           26       female       17,195            2          yes
+163           19       female       35,150            0           no
+164           40         male       32,775            1          yes
+165           25         male       30,590            0           no
+166           38       female       27,265            1           no
+167           18       female       29,165            0           no
+168           21       female       16,815            1           no
+169           27       female       30,400            3           no
+170           29       female       20,235            2           no
+171           31         male       28,595            1           no
+172           22         male       31,730            0           no
+173           31       female       32,680            1           no
+174           56         male       26,695            1          yes
+175           60         male       29,640            0           no
+176           56       female       25,650            0           no
+177           30         male       24,130            1           no
+178           57       female       30,495            0           no
+179           62       female       38,095            2           no
+180           56         male       25,935            0           no
+181           56       female       33,820            2           no
+182           28       female       24,320            1           no
+183           18       female       30,115            0           no
+184           47       female       33,345            0           no
+185           61         male       28,310            1          yes
+186           24         male       28,500            0          yes
+187           25         male       35,625            0           no
+188           54       female       21,470            3           no
+189           53         male       31,160            1           no
+190           18       female       25,080            0           no
+191           43         male       26,030            0           no
+192           37         male       30,875            3           no
+193           22         male       31,350            1           no
+194           21         male       23,750            2           no
+195           24       female       25,270            0           no
+196           56         male       32,110            1           no
+197           51         male       22,420            0           no
+198           45         male       30,495            2           no
+199           31         male       30,875            0           no
+200           19       female       30,590            2           no
+201           46         male       39,425            1           no
+202           18         male       25,460            0           no
+203           62       female       31,730            0           no
+204           38         male       28,025            1           no
+205           54         male       30,210            0           no
+206           49         male       25,840            2          yes
+207           25       female       28,595            0           no
+208           52       female       31,730            2           no
+209           25       female       41,325            0           no
+210           46         male       33,440            1           no
+211           35       female       34,105            3          yes
+212           19         male       35,530            0           no
+213           46       female       19,950            2           no
+214           54       female       32,680            0           no
+215           19       female       30,495            0           no
+216           41         male       30,590            2           no
+217           48         male       40,565            2          yes
+218           57       female       34,295            2           no
+219           58       female       27,170            0           no
+220           31       female       38,095            1          yes
+221           59         male       25,460            1           no
+222           19         male       30,590            0           no
+223           21         male       20,235            3           no
+224           34       female       30,210            1          yes
+225           47         male       19,570            1           no
+226           21       female       21,850            1          yes
+227           46       female       33,725            1           no
+228           51         male       31,635            0           no
+229           19       female       28,310            0          yes
+230           27       female       25,175            0           no
+231           59       female       23,655            0          yes
+232           18       female       33,155            0           no
+233           34       female       19,000            3           no
+234           56       female       28,595            0           no
+235           18         male       33,535            0          yes
+236           59         male       28,785            0           no
+237           29       female       26,030            0           no
+238           36         male       28,880            3           no
+239           44       female       38,950            0          yes
+240           40         male       22,705            2           no
+241           64         male       38,190            0           no
+242           19       female       24,510            1           no
+243           35       female       38,095            2           no
+244           42         male       28,310            3          yes
+245           61         male       33,915            0           no
+246           23       female       34,960            3           no
+247           39         male       26,220            1           no
+248           40       female       23,370            3           no
+249           18         male       28,500            0           no
+250           27         male       33,155            2           no
+251           48       female       35,910            1           no
+252           57       female       28,785            4           no
+253           40       female       32,775            2          yes
+254           62         male       32,015            0          yes
+255           29       female       31,160            0           no
+256           45         male       21,375            0           no
+257           60         male       31,350            3          yes
+258           53         male       24,320            0           no
+259           53         male       26,410            2           no
+260           42         male       26,125            2           no
+261           21         male       27,360            0           no
+262           20         male       32,395            1           no
+263           26       female       40,185            0           no
+264           53       female       32,300            2           no
+265           56         male       33,725            0           no
+266           50       female       44,745            0           no
+267           34       female       26,410            1           no
+268           47       female       29,545            1           no
+269           49         male       28,690            3           no
+270           31       female       30,495            3           no
+271           43       female       30,685            2           no
+272           20         male       40,470            0           no
+273           49       female       22,610            1           no
+274           60         male       24,320            1           no
+275           58       female       33,440            0           no
+276           50       female       27,075            1           no
+277           41         male       28,405            1           no
+278           29       female       21,755            1          yes
+279           18       female       40,280            0           no
+280           48       female       27,265            1           no
+281           23         male       31,730            3          yes
+282           45         male       24,035            2           no
+283           53         male       34,105            0          yes
+284           50         male       26,410            0           no
+285           19         male       21,755            0           no
+286           28         male       30,875            0           no
+287           21         male       28,975            0           no
+288           64         male       37,905            0           no
+289           24         male       33,630            4           no
+290           31         male       27,645            2           no
+291           39       female       22,800            3           no
+292           30         male       37,430            3           no
+293           22       female       34,580            2           no
+294           27         male       26,030            0           no
+295           45       female       25,175            2           no
+296           57       female       31,825            0           no
+297           38       female       19,475            2           no
+298           44       female       36,480            0           no
+299           19       female       28,880            0          yes
+300           41         male       34,200            2           no
+301           40         male       32,300            2           no
+302           45         male       39,805            0           no
+303           60         male       36,955            0           no
+304           21         male       36,860            0           no
+305           22       female       23,180            0           no
+306           39       female       31,920            2           no
+307           27         male       28,500            0          yes
+308           33         male       24,795            0          yes
+309           45       female       35,815            0           no
+310           40       female       41,420            1           no
+311           19       female       36,575            0           no
+312           33       female       42,940            3           no
+313           28         male       22,515            2           no
+314           24       female       24,225            0           no
+315           47       female       26,125            1          yes
+316           33       female       35,530            0          yes
+317           60         male       24,320            0           no
+318           41         male       30,780            3          yes
+319           36       female       25,840            0           no
+320           58         male       34,390            0           no
+321           56       female       28,310            0           no
+322           59       female       31,350            0           no
+323           53         male       30,495            0           no
+324           55         male       32,775            0           no
+325           37       female       30,780            0          yes
+326           61         male       32,300            2           no
+327           53       female       23,750            2           no
+328           55       female       33,535            2           no
+329           36       female       19,855            0           no
+330           61         male       23,655            0           no
+331           44         male       21,850            3           no
+332           23       female       28,120            0           no
+333           23         male       27,360            1           no
+334           21       female       22,135            0           no
+335           51       female       37,050            3          yes
+336           25         male       26,695            4           no
+337           36       female       30,020            0           no
+338           57         male       33,630            1           no
+339           64       female       26,885            0          yes
+340           54         male       24,035            0           no
+341           62         male       32,110            0           no
+342           49         male       22,515            0           no
+343           26         male       27,265            3           no
+344           26       female       29,355            2           no
+345           27         male       32,585            3           no
+346           18         male       31,730            0          yes
+347           59       female       26,695            3           no
+348           33         male       24,605            2           no
+349           43       female       26,885            0          yes
+350           45         male       22,895            0          yes
+351           34         male       35,815            0           no
+352           44         male       29,735            2           no
+353           39       female       24,225            5           no
+354           19         male       22,610            0           no
+355           42         male       31,255            0           no
+356           57         male       18,335            0           no
+357           30       female       28,405            1           no
+358           34         male       27,835            1          yes
+359           24         male       26,790            1           no
+360           43         male       34,960            1          yes
+361           48         male       36,670            1           no
+362           46         male       24,795            3           no
+363           52         male       36,765            2           no
+364           51         male       24,795            2          yes
+365           34       female       23,560            0           no
+366           22       female       20,235            0           no
+367           29         male       22,895            0          yes
+368           45       female       39,995            3           no
+369           54         male       25,460            1           no
+370           34         male       21,375            0           no
+371           27       female       30,590            1           no
+372           20         male       30,115            5           no
+373           43         male       30,115            3           no
+374           45       female       27,645            1           no
+375           34         male       34,675            0           no
+376           38       female       27,835            2           no
+377           27       female       20,045            3          yes
+378           39       female       23,275            3           no
+379           33       female       36,290            3           no
+380           36       female       26,885            0           no
+381           30         male       22,990            2          yes
+382           47         male       19,190            1           no
+383           29         male       31,730            2           no
+384           28         male       29,260            2           no
+385           47         male       28,215            3          yes
+386           51         male       27,740            1           no
+387           48         male       32,300            1           no
+388           59         male       25,460            0           no
+389           19       female       24,605            1           no
+390           54       female       35,815            3           no
+391           19         male       26,030            1          yes
+392           37       female       17,290            2           no
+393           61         male       38,380            0           no
+394           45       female       30,495            1          yes
+395           22         male       28,880            0           no
+396           19         male       27,265            2           no
+397           35       female       28,025            0          yes
+398           18         male       23,085            0           no
+399           20         male       30,685            0          yes
+400           55         male       35,245            1           no
+401           43       female       24,700            2          yes
+402           43       female       25,080            0           no
+403           25       female       22,515            1           no
+404           44       female       36,955            1           no
+405           64         male       26,410            0           no
+406           49         male       29,830            1           no
+407           55         male       27,645            0           no
+408           36         male       28,595            3           no
+409           39         male       42,655            0           no
+410           63         male       21,660            1           no
+411           63         male       31,445            0           no
+412           21         male       31,255            0           no
+413           54       female       28,880            2           no
+414           60       female       18,335            0           no
+415           21         male       26,030            0           no
+416           32         male       27,835            1           no
+417           38         male       19,950            1           no
+418           62       female       30,495            2           no
+419           55         male       28,975            0           no
+420           57         male       31,540            0           no
+421           55       female       29,830            0           no
+422           51       female       34,960            2          yes
+423           52       female       30,875            0           no
+424           49       female       29,925            0           no
+425           54       female       32,300            1           no
+426           28       female       26,315            3           no
+427           23         male       24,510            0           no
+428           41         male       29,640            5           no
+429           53       female       36,860            3          yes
+430           27       female       32,395            1           no
+431           63       female       25,080            0           no
+432           52       female       18,335            0           no
+433           28         male       33,820            0           no
+434           26       female       22,230            0           no
+435           19       female       32,490            0          yes
+436           52         male       32,775            3           no
+437           20       female       31,920            0           no
+438           18       female       30,305            0           no
+439           58       female       36,480            0           no
+440           35       female       35,815            1           no
+441           36       female       22,135            3           no
+442           20       female       30,590            0           no
+443           43       female       34,580            1           no
+444           18       female       28,215            0           no
+445           41       female       28,310            1           no
+446           35       female       26,125            0           no
+447           37       female       34,105            1           no
+448           18         male       27,360            1          yes
+449           29         male       32,110            2           no
+450           52       female       24,130            1          yes
+451           23       female       34,865            0           no
+452           42       female       41,325            1           no
+453           24       female       29,925            0           no
+454           48       female       27,360            1           no
+455           45         male       23,560            2           no
+456           62       female       32,680            0           no
+457           43       female       25,270            1          yes
+458           31       female       32,775            2           no
+459           58       female       32,395            1           no
+460           31       female       21,755            0           no
+461           19       female       27,930            3           no
+462           19       female       30,020            0          yes
+463           40         male       29,355            1           no
+464           37         male       24,320            2           no
+465           46         male       40,375            2           no
+466           22         male       32,110            0           no
+467           51         male       32,300            1           no
+468           35         male       17,860            1           no
+469           37       female       25,555            1          yes
+470           36         male       30,875            1           no
+471           18         male       21,470            0           no
+472           27       female       31,255            1           no
+473           18         male       39,140            0           no
+474           38       female       30,210            3           no
+475           30       female       21,945            1           no
+476           41         male       23,940            1           no
+477           38         male       16,815            2           no
+478           58         male       30,305            0           no
+479           52         male       34,485            3          yes
+480           54       female       24,605            3           no
+481           63       female       21,660            0           no
+482           58       female       28,215            0           no
+483           37         male       22,705            3           no
+484           32         male       33,630            1          yes
+485           24         male       29,830            0          yes
+486           51       female       36,385            3           no
+487           54       female       27,645            1           no
+488           55         male       37,715            3           no
+489           52       female       23,180            0           no
+490           49       female       33,345            2           no
+491           26         male       33,915            1           no
+492           25       female       34,485            0           no
+493           22       female       30,400            0           no
+494           39         male       29,925            1          yes
+495           25       female       26,790            2           no
+496           47       female       27,645            2          yes
+497           18       female       21,660            0          yes
+498           28       female       17,290            0           no
+499           38       female       19,950            2           no
+500           58         male       25,175            0           no
+501           33         male       27,455            2           no
+502           19       female       25,745            1           no
+503           62         male       30,875            3          yes
+504           42         male       24,605            2          yes
+505           29       female       21,850            0          yes
+506           32         male       28,120            4          yes
+507           42         male       26,315            1           no
+508           30       female       23,655            3          yes
+509           35         male       39,710            4           no
+510           39       female       26,315            2           no
+511           31         male       31,065            3           no
+512           62         male       26,695            0          yes
+513           61         male       33,535            0           no
+514           42       female       32,870            0           no
+515           23       female       24,225            2           no
+516           50         male       30,970            3           no
+517           18       female       31,920            0           no
+518           61       female       29,070            0          yes
+
+         charges  Dchildren_1  Dchildren_2 Dchildren_many      bmi_ind
+
+  1      3866,86            0            0              0            0
+  2      6406,41            0            1              0            0
+  3     28923,14            0            0              0            0
+  4      2721,32            0            0              0            0
+  5     10797,34            1            0              0            1
+  6      2395,17            0            0              0            0
+  7     13228,85            0            0              0            1
+  8     37701,88            1            0              0            1
+  9     14451,84            0            0              0            0
+ 10      2775,19            1            0              0            0
+ 11     13770,10            0            0              0            0
+ 12     15612,19            0            0              1            1
+ 13      3046,06            0            0              0            0
+ 14      3393,36            0            1              0            1
+ 15      3556,92            0            0              0            1
+ 16      2211,13            0            0              0            1
+ 17      8059,68            0            0              1            0
+ 18     47496,49            0            1              0            1
+ 19     13607,37            0            1              0            1
+ 20      5989,52            0            1              0            1
+ 21      8606,22            0            0              1            0
+ 22     30166,62            1            0              0            0
+ 23      4133,64            1            0              0            0
+ 24     14711,74            0            0              0            0
+ 25      6389,38            1            0              0            0
+ 26      6799,46            0            0              1            0
+ 27     11356,66            0            0              0            1
+ 28      2755,02            0            0              0            1
+ 29      7935,29            0            0              0            1
+ 30     11033,66            0            0              1            1
+ 31     21098,55            0            1              0            0
+ 32     43578,94            0            0              0            1
+ 33     11082,58            0            0              0            0
+ 34     10942,13            1            0              0            0
+ 35     30184,94            0            0              1            0
+ 36      5729,01            0            1              0            1
+ 37     22412,65            0            0              0            0
+ 38      3645,09            0            0              0            0
+ 39     21344,85            0            0              0            1
+ 40     17560,38            1            0              0            0
+ 41      3877,30            0            1              0            1
+ 42     10825,25            1            0              0            1
+ 43      2404,73            0            0              0            1
+ 44     11488,32            0            0              1            1
+ 45     30260,00            0            0              0            0
+ 46      6686,43            0            1              0            0
+ 47      1705,62            0            0              0            0
+ 48      2257,48            0            0              0            0
+ 49     39556,49            1            0              0            1
+ 50     10115,01            0            0              1            1
+ 51      3385,40            0            0              0            0
+ 52     32734,19            0            1              0            0
+ 53     13616,36            0            0              0            0
+ 54      1632,56            0            0              0            0
+ 55      2045,69            0            0              0            0
+ 56      3490,55            1            0              0            1
+ 57     18157,88            0            1              0            0
+ 58     20745,99            0            0              1            0
+ 59     40720,55            0            0              1            1
+ 60     10959,69            1            0              0            1
+ 61      5125,22            1            0              0            0
+ 62      6334,34            0            0              1            1
+ 63     19964,75            0            0              0            0
+ 64      7077,19            1            0              0            0
+ 65      6948,70            0            0              0            1
+ 66     15518,18            0            0              0            0
+ 67     21348,71            0            0              0            0
+ 68      5028,15            0            0              0            0
+ 69     10407,09            0            0              1            0
+ 70      6128,80            0            0              1            1
+ 71      2719,28            1            0              0            1
+ 72      4827,90            0            0              1            0
+ 73      1694,80            0            0              0            0
+ 74      6455,86            0            1              0            0
+ 75     11735,88            0            0              0            0
+ 76      4005,42            0            0              1            0
+ 77      7419,48            0            0              0            0
+ 78     12044,34            1            0              0            0
+ 79      1639,56            0            0              0            1
+ 80      9644,25            0            0              0            0
+ 81      2130,68            0            0              0            1
+ 82     13012,21            0            0              0            0
+ 83      4337,74            1            0              0            0
+ 84     20984,09            0            1              0            0
+ 85      6610,11            1            0              0            1
+ 86      8162,72            0            0              1            1
+ 87      3537,70            0            1              0            0
+ 88     10564,88            0            0              0            1
+ 89      7358,18            1            0              0            1
+ 90      9225,26            0            1              0            0
+ 91      7443,64            1            0              0            1
+ 92      6710,19            0            1              0            0
+ 93     17352,68            0            0              0            0
+ 94     38511,63            0            1              0            1
+ 95      5354,07            1            0              0            0
+ 96     29523,17            0            0              0            0
+ 97     24476,48            0            0              0            1
+ 98      4040,56            1            0              0            0
+ 99     12829,46            0            1              0            0
+100     41097,16            0            0              0            1
+101     13047,33            0            0              1            0
+102     43921,18            0            0              0            1
+103     11520,10            0            0              1            0
+104     24869,84            0            0              1            0
+105      9282,48            1            0              0            0
+106      9617,66            1            0              0            0
+107      2523,17            0            0              0            0
+108      9715,84            0            1              0            0
+109      2803,70            0            1              0            0
+110     22331,57            1            0              0            0
+111     48549,18            0            0              1            1
+112      4237,13            1            0              0            0
+113     11879,10            1            0              0            1
+114      9432,93            0            1              0            1
+115     47896,79            1            0              0            1
+116     20277,81            1            0              0            0
+117      1704,57            0            0              0            0
+118      9249,50            1            0              0            0
+119      6746,74            0            0              1            0
+120     19442,35            0            1              0            1
+121     11944,59            0            0              0            1
+122      9722,77            0            0              0            1
+123      8835,26            0            0              0            1
+124     10435,07            0            0              0            1
+125      7421,19            0            0              0            0
+126      4894,75            1            0              0            0
+127     24671,66            0            0              1            0
+128     11566,30            0            0              0            1
+129      6600,21            1            0              0            1
+130     42760,50            0            1              0            1
+131     24393,62            0            0              0            0
+132     13429,04            0            0              0            1
+133     11658,38            0            0              0            0
+134     19144,58            0            1              0            1
+135     13937,67            1            0              0            0
+136     13352,10            0            0              0            1
+137     13981,85            0            0              0            1
+138      8334,46            1            0              0            1
+139      1635,73            0            0              0            0
+140      9620,33            0            0              1            0
+141      9778,35            1            0              0            1
+142      8017,06            0            1              0            0
+143      8116,27            0            1              0            1
+144     13415,04            0            0              0            0
+145     12029,29            0            0              0            0
+146      7639,42            1            0              0            1
+147     18033,97            0            0              0            0
+148     21659,93            0            0              1            0
+149     16455,71            0            0              1            1
+150     15006,58            0            1              0            0
+151     42303,69            0            0              0            1
+152      8302,54            0            1              0            0
+153      4618,08            0            0              1            1
+154     10736,87            0            0              1            1
+155      8964,06            1            0              0            1
+156      9290,14            1            0              0            1
+157      9411,00            0            1              0            1
+158      7526,71            0            0              0            0
+159     10269,46            0            0              1            1
+160      1621,34            0            0              0            0
+161     19594,81            1            0              0            0
+162     14455,64            0            1              0            0
+163      2134,90            0            0              0            1
+164     39125,33            1            0              0            1
+165      2727,40            0            0              0            1
+166      6555,07            1            0              0            0
+167      7323,73            0            0              0            0
+168      3167,46            1            0              0            0
+169     18804,75            0            0              1            1
+170      4906,41            0            1              0            0
+171      4243,59            1            0              0            0
+172      2254,80            0            0              0            1
+173      4738,27            1            0              0            1
+174     26109,33            1            0              0            0
+175     12731,00            0            0              0            0
+176     11454,02            0            0              0            0
+177      4032,24            1            0              0            0
+178     11840,78            0            0              0            1
+179     15230,32            0            1              0            1
+180     11165,42            0            0              0            0
+181     12643,38            0            1              0            1
+182     23288,93            1            0              0            0
+183      2203,47            0            0              0            1
+184     20878,78            0            0              0            1
+185     28868,66            1            0              0            0
+186     35147,53            0            0              0            0
+187      2534,39            0            0              0            1
+188     12475,35            0            0              1            0
+189     10461,98            1            0              0            1
+190      2196,47            0            0              0            0
+191      6837,37            0            0              0            0
+192      6796,86            0            0              1            1
+193      2643,27            1            0              0            1
+194      3077,10            0            1              0            0
+195      3044,21            0            0              0            0
+196     11763,00            1            0              0            1
+197      9361,33            0            0              0            0
+198      8413,46            0            1              0            1
+199      3857,76            0            0              0            1
+200     24059,68            0            1              0            1
+201      8342,91            1            0              0            1
+202      1708,00            0            0              0            0
+203     14043,48            0            0              0            1
+204      6067,13            1            0              0            0
+205     10231,50            0            0              0            1
+206     23807,24            0            1              0            0
+207      3213,62            0            0              0            0
+208     11187,66            0            1              0            1
+209     17878,90            0            0              0            1
+210      8334,59            1            0              0            1
+211     39983,43            0            0              1            1
+212      1646,43            0            0              0            1
+213      9193,84            0            1              0            0
+214     10923,93            0            0              0            1
+215      2128,43            0            0              0            1
+216      7256,72            0            1              0            1
+217     45702,02            0            1              0            1
+218     13224,06            0            1              0            1
+219     12222,90            0            0              0            0
+220     58571,07            1            0              0            1
+221     12913,99            1            0              0            0
+222      1639,56            0            0              0            1
+223      3861,21            0            0              1            0
+224     43943,88            1            0              0            1
+225      8428,07            1            0              0            0
+226     15359,10            1            0              0            0
+227      8823,99            1            0              0            1
+228      9174,14            0            0              0            1
+229     17468,98            0            0              0            0
+230      3558,62            0            0              0            0
+231     25678,78            0            0              0            0
+232      2207,70            0            0              0            1
+233      6753,04            0            0              1            0
+234     11658,12            0            0              0            0
+235     34617,84            0            0              0            1
+236     12129,61            0            0              0            0
+237      3736,46            0            0              0            0
+238      6748,59            0            0              1            0
+239     42983,46            0            0              0            1
+240      7173,36            0            1              0            0
+241     14410,93            0            0              0            1
+242      2709,11            1            0              0            0
+243     24915,05            0            1              0            1
+244     32787,46            0            0              1            0
+245     13143,86            0            0              0            1
+246      4466,62            0            0              1            1
+247      6123,57            1            0              0            0
+248      8252,28            0            0              1            0
+249      1712,23            0            0              0            0
+250      4058,71            0            1              0            1
+251     26392,26            1            0              0            1
+252     14394,40            0            0              1            0
+253     40003,33            0            1              0            1
+254     45710,21            0            0              0            1
+255      3943,60            0            0              0            1
+256      7222,79            0            0              0            0
+257     46130,53            0            0              1            1
+258      9863,47            0            0              0            0
+259     11244,38            0            1              0            0
+260      7729,65            0            1              0            0
+261      2104,11            0            0              0            0
+262      2362,23            1            0              0            1
+263      3201,25            0            0              0            1
+264     29186,48            0            1              0            1
+265     10976,25            0            0              0            1
+266      9541,70            0            0              0            1
+267      5385,34            1            0              0            0
+268      8930,93            1            0              0            0
+269     10264,44            0            0              1            0
+270      6113,23            0            0              1            1
+271      8310,84            0            1              0            1
+272      1984,45            0            0              0            1
+273      9566,99            1            0              0            0
+274     13112,60            1            0              0            0
+275     12231,61            0            0              0            1
+276     10106,13            1            0              0            0
+277      6664,69            1            0              0            0
+278     16657,72            1            0              0            0
+279      2217,60            0            0              0            1
+280      9447,25            1            0              0            0
+281     36189,10            0            0              1            1
+282      8604,48            0            1              0            0
+283     43254,42            0            0              0            1
+284      8827,21            0            0              0            0
+285      1627,28            0            0              0            0
+286      3062,51            0            0              0            1
+287      1906,36            0            0              0            0
+288     14210,54            0            0              0            1
+289     17128,43            0            0              1            1
+290      5031,27            0            1              0            0
+291      7985,81            0            0              1            0
+292      5428,73            0            0              1            1
+293      3925,76            0            1              0            1
+294      3070,81            0            0              0            0
+295      9095,07            0            1              0            0
+296     11842,62            0            0              0            1
+297      6933,24            0            1              0            0
+298     12797,21            0            0              0            1
+299     17748,51            0            0              0            0
+300      7261,74            0            1              0            1
+301      6986,70            0            1              0            1
+302      7448,40            0            0              0            1
+303     12741,17            0            0              0            1
+304      1917,32            0            0              0            1
+305      2731,91            0            0              0            0
+306      7209,49            0            1              0            1
+307     18310,74            0            0              0            0
+308     17904,53            0            0              0            0
+309      7731,86            0            0              0            1
+310     28476,73            1            0              0            1
+311      2136,88            0            0              0            1
+312      6360,99            0            0              1            1
+313      4428,89            0            1              0            0
+314      2842,76            0            0              0            0
+315     23401,31            1            0              0            0
+316     55135,40            0            0              0            1
+317     12523,60            0            0              0            0
+318     39597,41            0            0              1            1
+319      5266,37            0            0              0            0
+320     11743,93            0            0              0            1
+321     11657,72            0            0              0            0
+322     12622,18            0            0              0            1
+323     10072,06            0            0              0            1
+324     10601,63            0            0              0            1
+325     37270,15            0            0              0            1
+326     14119,62            0            1              0            1
+327     11729,68            0            1              0            0
+328     12269,69            0            1              0            1
+329      5458,05            0            0              0            0
+330     13129,60            0            0              0            0
+331      8891,14            0            0              1            0
+332      2690,11            0            0              0            0
+333      2789,06            1            0              0            0
+334      2585,85            0            0              0            0
+335     46255,11            0            0              1            1
+336      4877,98            0            0              1            0
+337      5272,18            0            0              0            1
+338     11945,13            1            0              0            1
+339     29330,98            0            0              0            0
+340     10422,92            0            0              0            0
+341     13555,00            0            0              0            1
+342      8688,86            0            0              0            0
+343      4661,29            0            0              1            0
+344      4564,19            0            1              0            0
+345      4846,92            0            0              1            1
+346     33732,69            0            0              0            1
+347     14382,71            0            0              1            0
+348      5257,51            0            1              0            0
+349     21774,32            0            0              0            0
+350     35069,37            0            0              0            0
+351      4320,41            0            0              0            1
+352     32108,66            0            1              0            0
+353      8965,80            0            0              1            0
+354      1628,47            0            0              0            0
+355      6358,78            0            0              0            1
+356     11534,87            0            0              0            0
+357      4527,18            1            0              0            0
+358     20009,63            1            0              0            0
+359     12609,89            1            0              0            0
+360     41034,22            1            0              0            1
+361     28468,92            1            0              0            1
+362      9500,57            0            0              1            0
+363     26467,10            0            1              0            1
+364     23967,38            0            1              0            0
+365      4992,38            0            0              0            0
+366      2527,82            0            0              0            0
+367     16138,76            0            0              0            0
+368      9704,67            0            0              1            1
+369     25517,11            1            0              0            0
+370      4500,34            0            0              0            0
+371     16796,41            1            0              0            1
+372      4915,06            0            0              1            1
+373      8410,05            0            0              1            1
+374     28340,19            1            0              0            0
+375      4518,83            0            0              0            1
+376      7144,86            0            1              0            0
+377     16420,49            0            0              1            0
+378      7986,48            0            0              1            0
+379      6551,75            0            0              1            1
+380      5267,82            0            0              0            0
+381     17361,77            0            1              0            0
+382      8627,54            1            0              0            0
+383      4433,39            0            1              0            1
+384      4438,26            0            1              0            0
+385     24915,22            0            0              1            0
+386      9957,72            1            0              0            0
+387      8765,25            1            0              0            1
+388     12124,99            0            0              0            0
+389      2709,24            1            0              0            0
+390     12495,29            0            0              1            1
+391     16450,89            1            0              0            0
+392      6877,98            0            1              0            0
+393     12950,07            0            0              0            1
+394     39725,52            1            0              0            1
+395      2250,84            0            0              0            0
+396     22493,66            0            1              0            0
+397     20234,85            0            0              0            0
+398      1704,70            0            0              0            0
+399     33475,82            0            0              0            1
+400     11394,07            1            0              0            1
+401     21880,82            0            1              0            0
+402      7325,05            0            0              0            0
+403      3594,17            1            0              0            0
+404      8023,14            1            0              0            1
+405     14394,56            0            0              0            0
+406      9288,03            1            0              0            0
+407     10594,50            0            0              0            0
+408      6548,20            0            0              1            0
+409      5757,41            0            0              0            1
+410     14349,85            1            0              0            0
+411     13974,46            0            0              0            1
+412      1909,53            0            0              0            1
+413     12096,65            0            1              0            0
+414     13204,29            0            0              0            0
+415      2102,26            0            0              0            0
+416      4454,40            1            0              0            0
+417      5855,90            1            0              0            0
+418     15019,76            0            1              0            1
+419     10796,35            0            0              0            0
+420     11353,23            0            0              0            1
+421     11286,54            0            0              0            0
+422     44641,20            0            1              0            1
+423     23045,57            0            0              0            1
+424      8988,16            0            0              0            0
+425     11512,41            1            0              0            1
+426      5312,17            0            0              1            0
+427      2396,10            0            0              0            0
+428      9222,40            0            0              1            0
+429     46661,44            0            0              1            1
+430     18903,49            1            0              0            1
+431     14254,61            0            0              0            0
+432      9991,04            0            0              0            0
+433     19673,34            0            0              0            1
+434      3176,29            0            0              0            0
+435     36898,73            0            0              0            1
+436     11289,11            0            0              1            1
+437      2261,57            0            0              0            1
+438      2203,74            0            0              0            1
+439     12235,84            0            0              0            1
+440      5630,46            1            0              0            1
+441      7228,22            0            0              1            0
+442      2459,72            0            0              0            1
+443      7727,25            1            0              0            1
+444      2200,83            0            0              0            0
+445      7153,55            1            0              0            0
+446      5227,99            0            0              0            0
+447      6112,35            1            0              0            1
+448     17178,68            1            0              0            0
+449      4433,92            0            1              0            1
+450     23887,66            1            0              0            0
+451      2899,49            0            0              0            1
+452      7650,77            1            0              0            1
+453      2850,68            0            0              0            0
+454      9447,38            1            0              0            0
+455      8603,82            0            1              0            0
+456     13844,80            0            0              0            1
+457     21771,34            1            0              0            0
+458      5327,40            0            1              0            1
+459     13019,16            1            0              0            1
+460      4134,08            0            0              0            0
+461     18838,70            0            0              1            0
+462     33307,55            0            0              0            1
+463      6393,60            1            0              0            0
+464      6198,75            0            1              0            0
+465      8733,23            0            1              0            1
+466      2055,32            0            0              0            1
+467      9964,06            1            0              0            1
+468      5116,50            1            0              0            0
+469     20296,86            1            0              0            0
+470      5373,36            1            0              0            1
+471      1702,46            0            0              0            0
+472      3956,07            1            0              0            1
+473     12890,06            0            0              0            1
+474      7537,16            0            0              1            1
+475      4718,20            1            0              0            0
+476      6858,48            1            0              0            0
+477      6640,54            0            1              0            0
+478     11938,26            0            0              0            1
+479     60021,40            0            0              1            1
+480     12479,71            0            0              1            0
+481     14449,85            0            0              0            0
+482     12224,35            0            0              0            0
+483      6985,51            0            0              1            0
+484     37607,53            1            0              0            1
+485     18648,42            0            0              0            0
+486     11436,74            0            0              1            1
+487     11305,93            1            0              0            0
+488     30063,58            0            0              1            1
+489     10197,77            0            0              0            0
+490     10370,91            0            1              0            1
+491      3292,53            1            0              0            1
+492      3021,81            0            0              0            1
+493      2741,95            0            0              0            1
+494     22462,04            1            0              0            0
+495      4189,11            0            1              0            0
+496     24535,70            0            1              0            0
+497     14283,46            0            0              0            0
+498      3732,63            0            0              0            0
+499      7133,90            0            1              0            0
+500     11931,13            0            0              0            0
+501      5261,47            0            1              0            0
+502      2710,83            1            0              0            0
+503     46718,16            0            0              1            1
+504     21259,38            0            1              0            0
+505     16115,30            0            0              0            0
+506     21472,48            0            0              1            0
+507      6940,91            1            0              0            0
+508     18765,88            0            0              1            0
+509     19496,72            0            0              1            1
+510      7201,70            0            1              0            0
+511      5425,02            0            0              1            1
+512     28101,33            0            0              0            0
+513     13143,34            0            0              0            1
+514      7050,02            0            0              0            1
+515     22395,74            0            1              0            0
+516     10600,55            0            0              1            1
+517      2205,98            0            0              0            1
+518     29141,36            0            0              0            0
+
+     bmi_bmi_ind      sex_age
+
+  1        0,000           32
+  2        0,000           37
+  3        0,000            0
+  4        0,000           25
+  5       30,780            0
+  6        0,000           23
+  7       36,005            0
+  8       31,920            0
+  9        0,000            0
+ 10        0,000           23
+ 11        0,000           63
+ 12       32,965            0
+ 13        0,000            0
+ 14       38,665            0
+ 15       34,770            0
+ 16       35,625            0
+ 17        0,000            0
+ 18       36,955           58
+ 19       31,825            0
+ 20       37,335            0
+ 21        0,000           43
+ 22        0,000           64
+ 23        0,000            0
+ 24        0,000            0
+ 25        0,000           40
+ 26        0,000           31
+ 27       34,010           57
+ 28       39,805            0
+ 29       38,285            0
+ 30       41,230            0
+ 31        0,000           45
+ 32       31,160            0
+ 33        0,000            0
+ 34        0,000            0
+ 35        0,000           59
+ 36       34,770           35
+ 37        0,000           56
+ 38        0,000           30
+ 39       30,115            0
+ 40        0,000           20
+ 41       30,875           26
+ 42       33,630           54
+ 43       35,720            0
+ 44       32,205           52
+ 45        0,000           60
+ 46        0,000            0
+ 47        0,000           18
+ 48        0,000            0
+ 49       31,350           44
+ 50       33,915            0
+ 51        0,000            0
+ 52        0,000            0
+ 53        0,000            0
+ 54        0,000           19
+ 55        0,000           22
+ 56       32,490           26
+ 57        0,000           29
+ 58        0,000           30
+ 59       30,495           46
+ 60       37,430            0
+ 61        0,000           35
+ 62       37,145            0
+ 63        0,000            0
+ 64        0,000            0
+ 65       39,520           44
+ 66        0,000           18
+ 67        0,000            0
+ 68        0,000           37
+ 69        0,000           47
+ 70       33,155            0
+ 71       31,825            0
+ 72        0,000           27
+ 73        0,000           18
+ 74        0,000           38
+ 75        0,000           58
+ 76        0,000           22
+ 77        0,000            0
+ 78        0,000            0
+ 79       30,590           19
+ 80        0,000            0
+ 81       32,110            0
+ 82        0,000            0
+ 83        0,000            0
+ 84        0,000           35
+ 85       41,230           40
+ 86       30,875           40
+ 87        0,000           24
+ 88       33,250            0
+ 89       31,635            0
+ 90        0,000           47
+ 91       36,195            0
+ 92        0,000           39
+ 93        0,000           19
+ 94       36,670            0
+ 95        0,000            0
+ 96        0,000            0
+ 97       30,020           54
+ 98        0,000           29
+ 99        0,000           18
+100       31,825           50
+101        0,000            0
+102       33,630           56
+103        0,000           51
+104        0,000           52
+105        0,000           49
+106        0,000           50
+107        0,000           25
+108        0,000            0
+109        0,000           19
+110        0,000            0
+111       40,565           54
+112        0,000           30
+113       32,395            0
+114       48,070            0
+115       36,765            0
+116        0,000           29
+117        0,000           18
+118        0,000            0
+119        0,000           36
+120       33,345           29
+121       34,865           58
+122       33,250           52
+123       32,205           50
+124       32,775           54
+125        0,000            0
+126        0,000           34
+127        0,000            0
+128       40,945           57
+129       34,105           40
+130       36,480           45
+131        0,000           52
+132       31,160            0
+133        0,000            0
+134       35,720            0
+135        0,000           62
+136       30,020           62
+137       36,765           63
+138       33,345           46
+139        0,000           19
+140        0,000           47
+141       30,780            0
+142        0,000            0
+143       32,015           44
+144        0,000            0
+145        0,000            0
+146       33,155            0
+147        0,000            0
+148        0,000            0
+149       30,115            0
+150        0,000            0
+151       30,685           55
+152        0,000           44
+153       30,210            0
+154       35,625           48
+155       31,445           48
+156       31,350           49
+157       32,300            0
+158        0,000           46
+159       32,300           49
+160        0,000           19
+161        0,000            0
+162        0,000            0
+163       35,150            0
+164       32,775           40
+165       30,590           25
+166        0,000            0
+167        0,000            0
+168        0,000            0
+169       30,400            0
+170        0,000            0
+171        0,000           31
+172       31,730           22
+173       32,680            0
+174        0,000           56
+175        0,000           60
+176        0,000            0
+177        0,000           30
+178       30,495            0
+179       38,095            0
+180        0,000           56
+181       33,820            0
+182        0,000            0
+183       30,115            0
+184       33,345            0
+185        0,000           61
+186        0,000           24
+187       35,625           25
+188        0,000            0
+189       31,160           53
+190        0,000            0
+191        0,000           43
+192       30,875           37
+193       31,350           22
+194        0,000           21
+195        0,000            0
+196       32,110           56
+197        0,000           51
+198       30,495           45
+199       30,875           31
+200       30,590            0
+201       39,425           46
+202        0,000           18
+203       31,730            0
+204        0,000           38
+205       30,210           54
+206        0,000           49
+207        0,000            0
+208       31,730            0
+209       41,325            0
+210       33,440           46
+211       34,105            0
+212       35,530           19
+213        0,000            0
+214       32,680            0
+215       30,495            0
+216       30,590           41
+217       40,565           48
+218       34,295            0
+219        0,000            0
+220       38,095            0
+221        0,000           59
+222       30,590           19
+223        0,000           21
+224       30,210            0
+225        0,000           47
+226        0,000            0
+227       33,725            0
+228       31,635           51
+229        0,000            0
+230        0,000            0
+231        0,000            0
+232       33,155            0
+233        0,000            0
+234        0,000            0
+235       33,535           18
+236        0,000           59
+237        0,000            0
+238        0,000           36
+239       38,950            0
+240        0,000           40
+241       38,190           64
+242        0,000            0
+243       38,095            0
+244        0,000           42
+245       33,915           61
+246       34,960            0
+247        0,000           39
+248        0,000            0
+249        0,000           18
+250       33,155           27
+251       35,910            0
+252        0,000            0
+253       32,775            0
+254       32,015           62
+255       31,160            0
+256        0,000           45
+257       31,350           60
+258        0,000           53
+259        0,000           53
+260        0,000           42
+261        0,000           21
+262       32,395           20
+263       40,185            0
+264       32,300            0
+265       33,725           56
+266       44,745            0
+267        0,000            0
+268        0,000            0
+269        0,000           49
+270       30,495            0
+271       30,685            0
+272       40,470           20
+273        0,000            0
+274        0,000           60
+275       33,440            0
+276        0,000            0
+277        0,000           41
+278        0,000            0
+279       40,280            0
+280        0,000            0
+281       31,730           23
+282        0,000           45
+283       34,105           53
+284        0,000           50
+285        0,000           19
+286       30,875           28
+287        0,000           21
+288       37,905           64
+289       33,630           24
+290        0,000           31
+291        0,000            0
+292       37,430           30
+293       34,580            0
+294        0,000           27
+295        0,000            0
+296       31,825            0
+297        0,000            0
+298       36,480            0
+299        0,000            0
+300       34,200           41
+301       32,300           40
+302       39,805           45
+303       36,955           60
+304       36,860           21
+305        0,000            0
+306       31,920            0
+307        0,000           27
+308        0,000           33
+309       35,815            0
+310       41,420            0
+311       36,575            0
+312       42,940            0
+313        0,000           28
+314        0,000            0
+315        0,000            0
+316       35,530            0
+317        0,000           60
+318       30,780           41
+319        0,000            0
+320       34,390           58
+321        0,000            0
+322       31,350            0
+323       30,495           53
+324       32,775           55
+325       30,780            0
+326       32,300           61
+327        0,000            0
+328       33,535            0
+329        0,000            0
+330        0,000           61
+331        0,000           44
+332        0,000            0
+333        0,000           23
+334        0,000            0
+335       37,050            0
+336        0,000           25
+337       30,020            0
+338       33,630           57
+339        0,000            0
+340        0,000           54
+341       32,110           62
+342        0,000           49
+343        0,000           26
+344        0,000            0
+345       32,585           27
+346       31,730           18
+347        0,000            0
+348        0,000           33
+349        0,000            0
+350        0,000           45
+351       35,815           34
+352        0,000           44
+353        0,000            0
+354        0,000           19
+355       31,255           42
+356        0,000           57
+357        0,000            0
+358        0,000           34
+359        0,000           24
+360       34,960           43
+361       36,670           48
+362        0,000           46
+363       36,765           52
+364        0,000           51
+365        0,000            0
+366        0,000            0
+367        0,000           29
+368       39,995            0
+369        0,000           54
+370        0,000           34
+371       30,590            0
+372       30,115           20
+373       30,115           43
+374        0,000            0
+375       34,675           34
+376        0,000            0
+377        0,000            0
+378        0,000            0
+379       36,290            0
+380        0,000            0
+381        0,000           30
+382        0,000           47
+383       31,730           29
+384        0,000           28
+385        0,000           47
+386        0,000           51
+387       32,300           48
+388        0,000           59
+389        0,000            0
+390       35,815            0
+391        0,000           19
+392        0,000            0
+393       38,380           61
+394       30,495            0
+395        0,000           22
+396        0,000           19
+397        0,000            0
+398        0,000           18
+399       30,685           20
+400       35,245           55
+401        0,000            0
+402        0,000            0
+403        0,000            0
+404       36,955            0
+405        0,000           64
+406        0,000           49
+407        0,000           55
+408        0,000           36
+409       42,655           39
+410        0,000           63
+411       31,445           63
+412       31,255           21
+413        0,000            0
+414        0,000            0
+415        0,000           21
+416        0,000           32
+417        0,000           38
+418       30,495            0
+419        0,000           55
+420       31,540           57
+421        0,000            0
+422       34,960            0
+423       30,875            0
+424        0,000            0
+425       32,300            0
+426        0,000            0
+427        0,000           23
+428        0,000           41
+429       36,860            0
+430       32,395            0
+431        0,000            0
+432        0,000            0
+433       33,820           28
+434        0,000            0
+435       32,490            0
+436       32,775           52
+437       31,920            0
+438       30,305            0
+439       36,480            0
+440       35,815            0
+441        0,000            0
+442       30,590            0
+443       34,580            0
+444        0,000            0
+445        0,000            0
+446        0,000            0
+447       34,105            0
+448        0,000           18
+449       32,110           29
+450        0,000            0
+451       34,865            0
+452       41,325            0
+453        0,000            0
+454        0,000            0
+455        0,000           45
+456       32,680            0
+457        0,000            0
+458       32,775            0
+459       32,395            0
+460        0,000            0
+461        0,000            0
+462       30,020            0
+463        0,000           40
+464        0,000           37
+465       40,375           46
+466       32,110           22
+467       32,300           51
+468        0,000           35
+469        0,000            0
+470       30,875           36
+471        0,000           18
+472       31,255            0
+473       39,140           18
+474       30,210            0
+475        0,000            0
+476        0,000           41
+477        0,000           38
+478       30,305           58
+479       34,485           52
+480        0,000            0
+481        0,000            0
+482        0,000            0
+483        0,000           37
+484       33,630           32
+485        0,000           24
+486       36,385            0
+487        0,000            0
+488       37,715           55
+489        0,000            0
+490       33,345            0
+491       33,915           26
+492       34,485            0
+493       30,400            0
+494        0,000           39
+495        0,000            0
+496        0,000            0
+497        0,000            0
+498        0,000            0
+499        0,000            0
+500        0,000           58
+501        0,000           33
+502        0,000            0
+503       30,875           62
+504        0,000           42
+505        0,000            0
+506        0,000           32
+507        0,000           42
+508        0,000            0
+509       39,710           35
+510        0,000            0
+511       31,065           31
+512        0,000           62
+513       33,535           61
+514       32,870            0
+515        0,000            0
+516       30,970           50
+517       31,920            0
+518        0,000            0
