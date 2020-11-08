@@ -25,6 +25,8 @@ gnuplot  charges bmi
 # Анализ наличия корреляции между независимыми переменными
 xtab  sex smoker children_new
 corr age bmi
+corr age bmi --kendall
+corr age bmi --spearman
 gnuplot  bmi age
 KruskalWallis(age, sex, 1)
 KruskalWallis(bmi, sex, 1)
