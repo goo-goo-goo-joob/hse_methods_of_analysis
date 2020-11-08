@@ -1,42 +1,80 @@
 open [data]\insurance_north.gdt
 include KruskalWallis.gfn
+# Аггрегируем переменную children 
+children_new = children * (children < 3) + 3 * (children >= 3)
 # Предварительный анализ данных
 freq smoker --plot=display
 freq sex --plot=display
 freq children --plot=display
+freq children_new --plot=display
 freq charges --min=404.672 --binwidth=2551 --plot=display
 freq age --min=17.042 --binwidth=5.775 --plot=display
 freq bmi --min=15.291 --binwidth=1.745 --plot=display
-summary age bmi children charges
+summary age bmi charges
 # Анализ статистической связи
 # Графический анализ пары «числовая зависимая переменная – качественная независимая переменная»
 boxplot charges sex --factorized
 KruskalWallis(charges, sex, 1)
 boxplot charges smoker --factorized
 KruskalWallis(charges, smoker, 1)
+boxplot charges children_new --factorized
+KruskalWallis(charges, children_new, 1)
 # Графический анализ пары «числовая зависимая переменная – числовая независимая переменная»
 gnuplot  charges age
 gnuplot  charges bmi
-gnuplot  charges children
 # Анализ наличия корреляции между независимыми переменными
-xtab  sex smoker
-corr age bmi children
+xtab  sex smoker children_new
+corr age bmi
 gnuplot  bmi age
 KruskalWallis(age, sex, 1)
 KruskalWallis(bmi, sex, 1)
-KruskalWallis(children, sex, 1)
+KruskalWallis(age, children_new, 1)
+KruskalWallis(bmi, children_new, 1)
 KruskalWallis(bmi, smoker, 1)
 KruskalWallis(age, smoker, 1)
-KruskalWallis(children, smoker, 1)
 # Предварительная проверка гипотез
 # Построение моделей
 smpl 518 --random
+Dchildren_2 = children == 2 
+Dchildren_many = children >= 3
 dummify smoker
 dummify sex
-bmi_ind = 1*(bmi>=30) + 0*(bmi<30)
+bmi_ind = 1 * (bmi >= 30) + 0 * (bmi < 30)
 boxplot charges bmi_ind --factorized
-bmi_bmi_ind = bmi*bmi_ind
+bmi_bmi_ind = bmi * bmi_ind
 sex_age = Dsex_1 * age
-ols charges 0 age bmi children Dsmoker_2
-ols charges 0 age bmi children Dsmoker_2 bmi_bmi_ind
-ols charges 0 age bmi children Dsmoker_2 bmi_bmi_ind sex_age
+# Базовая модель
+ols charges 0 age bmi Dchildren_2 Dchildren_many Dsmoker_2
+# Анализ мультиколлинеарности
+vif
+bkw
+# Модифицированная модель 2
+ols charges 0 age bmi Dchildren_2 Dchildren_many Dsmoker_2 bmi_bmi_ind sex_age
+# Анализ мультиколлинеарности
+vif
+bkw
+# Модифицированная модель 1
+ols charges 0 age bmi Dchildren_2 Dchildren_many Dsmoker_2 bmi_bmi_ind
+# Анализ мультиколлинеарности
+vif
+bkw
+# Анализ наличия выбросов
+leverage
+# Анализ гетероскедастичности
+modtest --white
+# Модифицированная модель 1 с поправкой на гетероскедастичность
+ols charges 0 age bmi Dchildren_2 Dchildren_many Dsmoker_2 bmi_bmi_ind --robust
+# Удаляем выбросы
+smpl obs != 503 --restrict
+smpl obs != 377 --restrict
+smpl obs != 217 --restrict
+smpl obs != 162 --restrict
+smpl obs != 150 --restrict
+smpl obs != 114 --restrict
+smpl obs != 111 --restrict
+smpl obs != 99 --restrict
+smpl obs != 94 --restrict
+smpl obs != 52 --restrict
+smpl obs != 35 --restrict
+# Модифицированная модель 1 без выбросов
+ols charges 0 age bmi Dchildren_2 Dchildren_many Dsmoker_2 bmi_bmi_ind
